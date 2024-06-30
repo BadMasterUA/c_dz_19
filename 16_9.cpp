@@ -31,9 +31,14 @@ int main()
             text[i] = lit;
         }
 
+        if(text[i] == '#')
+        {
+            continue;
+        }
+        
+        cout << text[i];
     }
-    cout << text;
-    
+
     return 0;
 }
 ////
