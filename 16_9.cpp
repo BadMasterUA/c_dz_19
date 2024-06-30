@@ -31,11 +31,6 @@ int main()
             text[i] = lit;
         }
 
-        if (text[i] == '#')
-        {
-            //char lit = '$';
-            text[i] = text[i -1];
-        }
     }
     cout << text;
     
