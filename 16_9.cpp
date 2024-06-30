@@ -18,7 +18,7 @@ int main()
 
     }*/
 
-    char text[256];
+    char text[256] = {'\0'};
     int sizeMas = sizeof(text);
     cout << "enter a phrase: ";
     cin >> text;
@@ -38,6 +38,7 @@ int main()
         
         cout << text[i];
     }
+    cout << endl;
 
     return 0;
 }
